@@ -1,6 +1,6 @@
 ﻿namespace model
 {
-    public class empleados
+    public class clientes
     {
         public int ID { get; set; }
 
@@ -8,8 +8,8 @@
 
         public string cedula { get; set; }
 
-        public int edadEmpleado { get; set; }
+        public int edad { get; set; }
 
-        public int Salario { get; set; }
+        public int cantidadMiembrosFamilia { get; set; }
     }
 }
